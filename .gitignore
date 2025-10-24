@@ -1,0 +1,13 @@
+# Local environment variables
+.env
+
+# Local n8n data and credentials
+data/
+
+# Node.js modules (if ever used)
+node_modules/
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
