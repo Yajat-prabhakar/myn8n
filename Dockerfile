@@ -7,5 +7,5 @@ WORKDIR /home/node
 # Expose the default n8n port
 EXPOSE 5678
 
-# Start n8n
-CMD ["n8n", "start"]
+# Explicitly use npm exec to start n8n (fixes "command not found" in some environments)
+CMD ["npx", "n8n", "start"]
